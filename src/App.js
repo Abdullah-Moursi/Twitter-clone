@@ -15,8 +15,8 @@ const App = () => {
         "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=e8512624ba514cd8bcfdf139be0124e9"
       )
       .then((response) => setInfos(response.data.articles));
-    console.log(infos);
   }, []);
+
 
   return (
     <BrowserRouter>
